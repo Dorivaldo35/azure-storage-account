@@ -7,7 +7,7 @@ terraform {
   }
   backend "azurerm" {
     resource_group_name  = "rg-staticsitetf"
-    storage_account_name = "staticsitetfkb004"
+    storage_account_name = "staticsitetfkb150"     # Use sua data ou adicione números aleatórios
     container_name       = "tfstate"
     key                  = "terraform.tfstate"
   }

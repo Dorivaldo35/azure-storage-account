@@ -1,4 +1,4 @@
 variable "storage_account_name" {
     type    = string
-    default = "staticsitekb0004"
+    default = "staticsitekb150"      # Use sua data ou adicione números aleatórios
 }
